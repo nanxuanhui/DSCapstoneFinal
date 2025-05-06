@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B02A7B8E2D824C5C0019C62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02A7B762D824C5A0019C62F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02A7B7D2D824C5A0019C62F;
+			remoteInfo = FallDetect;
+		};
+		B02A7B982D824C5C0019C62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02A7B762D824C5A0019C62F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02A7B7D2D824C5A0019C62F;
+			remoteInfo = FallDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B02A7B7E2D824C5B0019C62F /* FallDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02A7B8D2D824C5C0019C62F /* FallDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02A7B972D824C5C0019C62F /* FallDetectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallDetectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B02A7D592D87A7460019C62F /* Exceptions for "FallDetect" folder in "FallDetect" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B02A7B7D2D824C5A0019C62F /* FallDetect */;
+		};
+		B06366EF2D9AF8C200066641 /* Exceptions for "FallDetect" folder in "FallDetectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				1.MOV,
+			);
+			target = B02A7B8C2D824C5C0019C62F /* FallDetectTests */;
+		};
+		B06366F02D9AF8C200066641 /* Exceptions for "FallDetect" folder in "FallDetectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				1.MOV,
+			);
+			target = B02A7B962D824C5C0019C62F /* FallDetectUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B02A7B802D824C5B0019C62F /* FallDetect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B02A7D592D87A7460019C62F /* Exceptions for "FallDetect" folder in "FallDetect" target */,
+				B06366EF2D9AF8C200066641 /* Exceptions for "FallDetect" folder in "FallDetectTests" target */,
+				B06366F02D9AF8C200066641 /* Exceptions for "FallDetect" folder in "FallDetectUITests" target */,
+			);
+			path = FallDetect;
+			sourceTree = "<group>";
+		};
+		B02A7B902D824C5C0019C62F /* FallDetectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FallDetectTests;
+			sourceTree = "<group>";
+		};
+		B02A7B9A2D824C5C0019C62F /* FallDetectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FallDetectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02A7B7B2D824C5A0019C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B8A2D824C5C0019C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B942D824C5C0019C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02A7B752D824C5A0019C62F = {
+			isa = PBXGroup;
+			children = (
+				B02A7B802D824C5B0019C62F /* FallDetect */,
+				B02A7B902D824C5C0019C62F /* FallDetectTests */,
+				B02A7B9A2D824C5C0019C62F /* FallDetectUITests */,
+				B02A7B7F2D824C5B0019C62F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02A7B7F2D824C5B0019C62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02A7B7E2D824C5B0019C62F /* FallDetect.app */,
+				B02A7B8D2D824C5C0019C62F /* FallDetectTests.xctest */,
+				B02A7B972D824C5C0019C62F /* FallDetectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02A7B7D2D824C5A0019C62F /* FallDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02A7BA12D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetect" */;
+			buildPhases = (
+				B02A7B7A2D824C5A0019C62F /* Sources */,
+				B02A7B7B2D824C5A0019C62F /* Frameworks */,
+				B02A7B7C2D824C5A0019C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B02A7B802D824C5B0019C62F /* FallDetect */,
+			);
+			name = FallDetect;
+			packageProductDependencies = (
+			);
+			productName = FallDetect;
+			productReference = B02A7B7E2D824C5B0019C62F /* FallDetect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B02A7B8C2D824C5C0019C62F /* FallDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02A7BA42D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetectTests" */;
+			buildPhases = (
+				B02A7B892D824C5C0019C62F /* Sources */,
+				B02A7B8A2D824C5C0019C62F /* Frameworks */,
+				B02A7B8B2D824C5C0019C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02A7B8F2D824C5C0019C62F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B02A7B902D824C5C0019C62F /* FallDetectTests */,
+			);
+			name = FallDetectTests;
+			packageProductDependencies = (
+			);
+			productName = FallDetectTests;
+			productReference = B02A7B8D2D824C5C0019C62F /* FallDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B02A7B962D824C5C0019C62F /* FallDetectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02A7BA72D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetectUITests" */;
+			buildPhases = (
+				B02A7B932D824C5C0019C62F /* Sources */,
+				B02A7B942D824C5C0019C62F /* Frameworks */,
+				B02A7B952D824C5C0019C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02A7B992D824C5C0019C62F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B02A7B9A2D824C5C0019C62F /* FallDetectUITests */,
+			);
+			name = FallDetectUITests;
+			packageProductDependencies = (
+			);
+			productName = FallDetectUITests;
+			productReference = B02A7B972D824C5C0019C62F /* FallDetectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02A7B762D824C5A0019C62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B02A7B7D2D824C5A0019C62F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B02A7B8C2D824C5C0019C62F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B02A7B7D2D824C5A0019C62F;
+					};
+					B02A7B962D824C5C0019C62F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B02A7B7D2D824C5A0019C62F;
+					};
+				};
+			};
+			buildConfigurationList = B02A7B792D824C5A0019C62F /* Build configuration list for PBXProject "FallDetect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B02A7B752D824C5A0019C62F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B02A7B7F2D824C5B0019C62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02A7B7D2D824C5A0019C62F /* FallDetect */,
+				B02A7B8C2D824C5C0019C62F /* FallDetectTests */,
+				B02A7B962D824C5C0019C62F /* FallDetectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02A7B7C2D824C5A0019C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B8B2D824C5C0019C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B952D824C5C0019C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02A7B7A2D824C5A0019C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B892D824C5C0019C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02A7B932D824C5C0019C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B02A7B8F2D824C5C0019C62F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02A7B7D2D824C5A0019C62F /* FallDetect */;
+			targetProxy = B02A7B8E2D824C5C0019C62F /* PBXContainerItemProxy */;
+		};
+		B02A7B992D824C5C0019C62F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02A7B7D2D824C5A0019C62F /* FallDetect */;
+			targetProxy = B02A7B982D824C5C0019C62F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B02A7B9F2D824C5C0019C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B02A7BA02D824C5C0019C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02A7BA22D824C5C0019C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FallDetect/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B02A7BA32D824C5C0019C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FallDetect/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B02A7BA52D824C5C0019C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FallDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FallDetect";
+			};
+			name = Debug;
+		};
+		B02A7BA62D824C5C0019C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FallDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FallDetect";
+			};
+			name = Release;
+		};
+		B02A7BA82D824C5C0019C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FallDetect;
+			};
+			name = Debug;
+		};
+		B02A7BA92D824C5C0019C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TLV89L44Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijin.FallDetectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FallDetect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02A7B792D824C5A0019C62F /* Build configuration list for PBXProject "FallDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A7B9F2D824C5C0019C62F /* Debug */,
+				B02A7BA02D824C5C0019C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02A7BA12D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A7BA22D824C5C0019C62F /* Debug */,
+				B02A7BA32D824C5C0019C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02A7BA42D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A7BA52D824C5C0019C62F /* Debug */,
+				B02A7BA62D824C5C0019C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02A7BA72D824C5C0019C62F /* Build configuration list for PBXNativeTarget "FallDetectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A7BA82D824C5C0019C62F /* Debug */,
+				B02A7BA92D824C5C0019C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02A7B762D824C5A0019C62F /* Project object */;
+}
