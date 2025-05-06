@@ -1,7 +1,7 @@
 # Fall Detection Algorithm for Elderly People Living Alone Based on ARKit and YOLOv5
 
 ## Project Overview
-FallDetect is an application designed for elderly people living alone, utilizing ARKit and YOLOv5 for real-time fall detection. By leveraging advanced computer vision technologies, the app monitors the user's activity and promptly alerts in case of a fall.
+FallDetect is an application designed for elderly people living alone, utilizing ARKit and YOLOv5 for real-time fall detection. By leveraging advanced computer vision technologies, including the top-1 technique from YOLOv10 to enhance detection speed, the app monitors the user's activity and promptly alerts in case of a fall.
 
 ## Key Features
 - Real-time fall detection
@@ -14,6 +14,7 @@ FallDetect is an application designed for elderly people living alone, utilizing
 ## Technical Highlights
 - Real-time motion capture based on ARKit
 - YOLOv5 object detection algorithm
+- Top-1 technique from YOLOv10 for faster detection**
 - Modern UI with SwiftUI
 - 3D spatial interaction (visionOS)
 - Adaptive layout design
